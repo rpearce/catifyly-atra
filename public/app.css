@@ -1,0 +1,26 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  background-image: url('/images/welcome.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.caption {
+  position: absolute;
+  width: 100%;
+  color: #FFFFFF;
+  font-family: monospace;
+  font-size: 4rem;
+  text-transform: uppercase;
+  text-align: center;
+  text-shadow: 0 1px 0 #000000;
+}
+.caption.top {
+  top: 25px;
+}
+.caption.bottom {
+  bottom: 25px;
+}
